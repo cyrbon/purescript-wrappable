@@ -1,0 +1,23 @@
+{
+  "name": "purescript-wrappable",
+  "homepage": "https://github.com/cyrbon/purescript-wrappable",
+  "description": "Type class for Wrappable and Unwrappable",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cyrbon/purescript-wrappable.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^2.1.0",
+    "purescript-newtype": "^1.0.0"
+  }
+}
