@@ -22,9 +22,6 @@
 -- | to specify `wrap` and vice versa.
 module Data.Wrappable where
 
-import Data.Newtype (class Newtype)
-import Data.Newtype as Newtype
-
 -- | A type class for things that can be wrapped
 class Wrappable t a | t -> a where
   wrap :: a -> t
